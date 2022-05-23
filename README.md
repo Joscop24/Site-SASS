@@ -1,2 +1,2 @@
-# Site-SASS
+# Site-Sass
 Site HTML/CSS SASS
