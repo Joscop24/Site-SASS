@@ -121,6 +121,24 @@ h2 {
 .txt-left {
   text-align: left; }
 
+.container {
+  position: relative; }
+
+.txt-img {
+  position: absolute;
+  top: 20%;
+  left: 5%; }
+
+.txt-img1 {
+  position: absolute;
+  top: 40%;
+  left: 5%; }
+
+.txt-img2 {
+  position: absolute;
+  top: 60%;
+  left: 5%; }
+
 .btn {
   border-radius: 25px;
   padding: 10px;
@@ -139,6 +157,17 @@ h2 {
   color: #f7cd50; }
   .btn-canceled:hover {
     background: #770c0c; }
+
+img {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+align-itm-center {
+  display: flex;
+  align-items: center; }
 
 .px-2 {
   padding: 0 2px 0 2px; }
