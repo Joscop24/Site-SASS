@@ -10,7 +10,8 @@ a {
   font: Helvetica, sans-serif; }
 
 p {
-  font: Helvetica, sans-serif; }
+  font: #4B65E9;
+  font-size: 20px; }
 
 ul {
   margin: 0;
@@ -20,7 +21,7 @@ li {
   list-style: none; }
 
 h1 {
-  color: #026782;
+  color: Helvetica, sans-serif;
   font: Helvetica, sans-serif; }
 
 h2 {
@@ -597,6 +598,11 @@ header {
 
 .col-12 {
   width: 100%; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: 1; }
 
 .row {
   display: flex; }
